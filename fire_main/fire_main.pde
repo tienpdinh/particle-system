@@ -33,3 +33,8 @@ void draw() {
   ps.addParticle();
   ps.run();
 }
+
+void keyPressed() {
+  if (key == 'c')
+    cam.controllable = false;
+}
